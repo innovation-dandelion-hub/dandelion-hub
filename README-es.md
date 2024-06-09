@@ -8,7 +8,7 @@ Esta solución fue desarrollada para el desafío ejecutivo 'Hack for Cross Agenc
 
 Inspirada en el ciclo de vida de un diente de león, nuestra plataforma transforma diversas fuentes de datos en informes y visualizaciones informativas, al igual que un diente de león transforma el agua en una hermosa flor que puede reproducirse a través del aire. 🍃
 
-Con Datadelion, las agencias gubernamentales pueden aprovechar el poder de los datos para tomar decisiones informadas, impulsar la innovación y, en última instancia, mejorar la vida de los ciudadanos, funcionando como un puente entre países utilizando la tecnología como enlace.
+Con Dandelion Hub, las agencias gubernamentales pueden aprovechar el poder de los datos para tomar decisiones informadas, impulsar la innovación y, en última instancia, mejorar la vida de los ciudadanos, funcionando como un puente entre países utilizando la tecnología como enlace.
 
 Nuestra plataforma permite una integración de datos sin interrupciones, análisis avanzados y un intercambio de información seguro, empoderando a las agencias para florecer y difundir su conocimiento como semillas de diente de león en el viento. Permitiendo a todos acceder a los datos desde cualquier lugar en una sola plataforma. 🗺️
 

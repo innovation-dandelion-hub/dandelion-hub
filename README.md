@@ -8,7 +8,7 @@ This solution was developed for the 'Hack for Cross Agency Knowledge Management'
 
 Inspired by the life cycle of a dandelion, our platform transforms diverse data sources into insightful reports and visualizations, much like a dandelion transforms water into a beautiful bloom that can reproduce trought the air. 🍃
 
-With Datadelion, government agencies can harness the power of data to make informed decisions, drive innovation, and ultimately improve the lives of citizens, works as a bridge between countries using technology as the link.
+With Dandelion Hub, government agencies can harness the power of data to make informed decisions, drive innovation, and ultimately improve the lives of citizens, works as a bridge between countries using technology as the link.
 
 Our platform enables seamless data integration, advanced analytics, and secure information sharing, empowering agencies to flourish and spread their knowledge like dandelion seeds in the wind. Letting everyone to reach data from everywhere in one platform. 🗺️
 
