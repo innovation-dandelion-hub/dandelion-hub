@@ -12,6 +12,8 @@ With Dandelion Hub, government agencies can harness the power of data to make in
 
 Our platform enables seamless data integration, advanced analytics, and secure information sharing, empowering agencies to flourish and spread their knowledge like dandelion seeds in the wind. Letting everyone to reach data from everywhere in one platform. 🗺️
 
+> Cultivating Knowledge 🌱, Harvesting Insights 🌾
+
 ## Architecture
 
 This project uses various Microsoft Azure tools and services to collect, process, analyze, and visualize data from multiple governmental sources. The following diagram presents the solution architecture.
