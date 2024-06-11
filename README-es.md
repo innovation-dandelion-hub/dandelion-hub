@@ -16,7 +16,7 @@ Nuestra plataforma permite una integración de datos sin interrupciones, anális
 
 Este proyecto utiliza diversas herramientas y servicios de Microsoft Azure para recopilar, procesar, analizar y visualizar datos provenientes de múltiples fuentes gubernamentales. El siguiente diagrama presenta la arquitectura de la solución.
 
-![Banner](./assets/imgs/diagrama.png)
+![Architecture](./assets/imgs/diagrama.png)
 
 ### Componentes
 
@@ -68,3 +68,34 @@ Este proyecto utiliza diversas herramientas y servicios de Microsoft Azure para 
    - Versión Copiloto: Los usuarios pueden interactuar con el chatbot a través de Copilot Studio.
 
 9. **Validación de datos**: A través de Azure Prompt Flow se implementan bloqueos y notificaciones para garantizar la fidelidad de los datos introducidos por los usuarios.
+
+### Transversal Fabric & Azure
+
+El diagrama ilustra los principales desafíos y soluciones enfrentados durante el desarrollo de nuestra plataforma, así como la integración de diversas herramientas y servicios de Microsoft.
+
+- Problema: Cómo transformar los datos y estandarizarlos de manera automática.
+- Problema: Interagraciones de Microsoft Fabric con Copilot Studio y Azure con Copilot Studio.
+
+Esta solución hace uso de Fabric y sus servicios.
+
+#### Fase 0: Fuentes Externas
+
+Esta capa contiene las fuentes de datos externas que se utilizan en la solución. En este caso, nos enfocamos en el uso de APIs gubernamentales.
+
+#### Fase 1: Transformación y estandarización de datos
+
+En esta capa, los datos de las fuentes externas se transforman y estandarizan en un formato común. Esto se hace utilizando Microsoft Fabric One Lake y Microsoft Fabric Data Engineering.
+
+#### Fase 2: Integración con Microsoft Fabric Copilot Studio
+
+En esta capa, los datos estandarizados se integran con Microsoft Fabric Copilot Studio. Esto permite a los usuarios acceder a los datos desde Copilot Studio y utilizarlos para crear aplicaciones y análisis.
+
+#### Fase 3: Integración con Azure
+
+En esta capa, los datos estandarizados también se integran con Microsoft Azure. Esto permite a los usuarios almacenar los datos en Azure y utilizarlos para otros servicios de Azure, como Power BI y Power Apps.
+
+#### Fase 4: Visualización y análisis de datos
+
+En esta capa, los datos se visualizan y analizan utilizando Microsoft Power BI y Microsoft Power Apps. Los usuarios pueden utilizar estas herramientas para crear informes, paneles de control y otras aplicaciones de análisis.
+
+![Architecture Fabric and Azure](./assets/imgs/diagrama-fabric-azure.png)

@@ -67,3 +67,34 @@ This project uses various Microsoft Azure tools and services to collect, process
    - Copilot Version: Users can interact with the chatbot via Copilot Studio.
 
 9. **Data Validation**: Through Azure Prompt Flow, checks and notifications are implemented to ensure the fidelity of the data entered by users.
+
+### Transversal Fabric & Azure
+
+The diagram illustrates the main challenges and solutions faced during the development of our platform, as well as the integration of various Microsoft tools and services.
+
+- Problem: How to transform data and standardize it automatically.
+- Problem: Interaggregations of Microsoft Fabric with Copilot Studio and Azure with Copilot Studio.
+
+This solution makes use of Fabric and its services.
+
+#### Phase 0: External Sources
+
+This layer contains the external data sources that are used in the solution. In this case, we focus on the use of government APIs.
+
+#### Phase 1: Data transformation and standardization
+
+In this layer, data from external sources is transformed and standardized into a common format. This is done using Microsoft Fabric One Lake and Microsoft Fabric Data Engineering.
+
+#### Phase 2: Integration with Microsoft Fabric Copilot Studio
+
+In this layer, the standardized data is integrated with Microsoft Fabric Copilot Studio. This allows users to access the data from Copilot Studio and use it to create applications and analytics.
+
+#### Phase 3: Integration with Azure
+
+In this layer, the standardized data is also integrated with Microsoft Azure. This allows users to store the data in Azure and use it for other Azure services, such as Power BI and Power Apps.
+
+#### Phase 4: Data visualization and analysis
+
+In this layer, data is visualized and analyzed using Microsoft Power BI and Microsoft Power Apps. Users can use these tools to create reports, dashboards and other analysis applications.
+
+![Architecture Fabric and Azure](./assets/imgs/diagrama-fabric-azure.png)
